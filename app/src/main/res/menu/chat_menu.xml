@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:icon="@drawable/ic_action_channel_members"
+            android:id="@+id/action_show_members"
+            android:title="@string/action_show_members"
+            app:showAsAction="ifRoom"/>
+    <group android:id="@+id/group_functions">
+        <item
+            android:id="@+id/action_map_location"
+            android:title="@string/action_map_location"/>
+        <item
+            android:id="@+id/action_draw"
+            android:title="@string/action_Drawing"/>
+        <item
+            android:id="@+id/action_todo_list"
+            android:title="@string/action_todo_list"/>
+        <item
+            android:id="@+id/action_video"
+            android:title="@string/action_video_chat"/>
+        <item
+                android:id="@+id/action_share_file"
+                android:title="@string/share_file"/>
+    </group>
+
+</menu>

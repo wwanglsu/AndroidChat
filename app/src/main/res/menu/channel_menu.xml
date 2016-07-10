@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:icon="@android:drawable/sym_action_email"
+            android:id="@+id/invite_email"
+            android:title="@string/email"
+            app:showAsAction="always"/>
+
+    <item
+            android:icon="@drawable/btn_logout"
+            android:id="@+id/logout"
+            android:title="@string/logout"
+            app:showAsAction="always"/>
+
+</menu>
